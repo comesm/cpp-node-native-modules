@@ -41,7 +41,7 @@
 		CA7FE62A20463FED00305098 = {
 			isa = PBXGroup;
 			children = (
-				CA7FE63520463FED00305098 /* TestCpp */,
+				CA7FE63520463FED00305098 /* longestPalindrome */,
 				CA7FE63420463FED00305098 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,11 +54,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA7FE63520463FED00305098 /* TestCpp */ = {
+		CA7FE63520463FED00305098 /* longestPalindrome */ = {
 			isa = PBXGroup;
 			children = (
 				CA7FE63620463FED00305098 /* main.cpp */,
 			);
+			name = longestPalindrome;
 			path = TestCpp;
 			sourceTree = "<group>";
 		};
@@ -246,6 +247,7 @@
 				CA7FE63C20463FED00305098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
