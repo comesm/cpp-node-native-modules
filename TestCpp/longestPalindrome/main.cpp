@@ -34,6 +34,7 @@ string longestPalindrome(string s) {
         int new_len = k - j + 1;
          if(new_len > max_len) {min_start = j; max_len = new_len; }
         }
+    
       return s.substr(min_start, max_len);
 };
 
